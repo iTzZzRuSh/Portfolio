@@ -19,7 +19,7 @@ function Header() {
         <Box mt={isNotSmallerScreen ? "0" : "16"} alignSelf='flex-start'>
             <Text fontSize="5xl" fontWeight="semibold">Hi, I am</Text>
             <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Daniel Peshtewan</Text>
-            <Text color={isDark ? "gray.200" : "gray.500"}>You: Nothing Special? Really? <br/> Me: Yeah... but i have to write something very long so i can check this stupid website so thanks for spending your time reading this nonsens !!!</Text>
+            <Text color={isDark ? "gray.200" : "gray.500"}>You: Nothing Special? Really? <br/> Me: Yeah... but i have to write something very long so i can check this stupid website so thanks for spending your time reading this for no reasone !!!</Text>
               <Button mt={8} colorScheme="blue"
                onClick = { () => 
                  window.open("#") 
