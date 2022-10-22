@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import Social from "./Components/Social";
 
-function App() {
+  function App() {
 
     const {colorMode, toggleColorMode} = useColorMode();
     const isDark = colorMode === "dark";
