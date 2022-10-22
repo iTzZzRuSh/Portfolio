@@ -1,4 +1,4 @@
-import { Button, Image, Spacer, useColorMode } from '@chakra-ui/react';
+import { Button, Image, useColorMode } from '@chakra-ui/react';
 import { useMediaQuery } from "@chakra-ui/react";
 import { Circle, Stack, Flex, Box, Text} from '@chakra-ui/react';
 
